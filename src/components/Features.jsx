@@ -3,8 +3,8 @@ import React from 'react';
 const Features = () => {
   return (
     <section className="p-5">
-    <div className='h-1 w-[90px] blue-grad ' />
-      <div className="flex flex-col gap-2 px-[19px] mt-5">
+    <div className='h-1 w-[90px] blue-grad' />
+      <div className="flex flex-col gap-2 px-[19px] mt-5 md:flex-row md:gap-[40px]">
         <h2 className="text-2xl font-semibold">
           What Makes us <br />
           Different?
@@ -17,8 +17,8 @@ const Features = () => {
       </div>
 
 
-      <div className="flex flex-col mt-5 px-[64px] gap-8">
-        <div className="flex flex-col items-center gap-3">
+      <div className="flex flex-col mt-5 px-[64px] gap-8 md:flex-row mx-auto">
+        <div className="flex flex-col items-center gap-3 max-w-[263px]">
           <img src="src/assets/features/1.png" className="w-[94px] h-[94px]" />
           <h3 className="text-xl font-bold">Experienced</h3>
           <p className="text-center text-[#C4C4C4] text-lg">
